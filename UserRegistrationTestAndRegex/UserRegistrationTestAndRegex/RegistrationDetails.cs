@@ -11,6 +11,7 @@ namespace UserRegistrationTestAndRegex
     {
         //UC1
         public static string Regex_FirstName = "^[A-Z][a-z]{2,}$";
+        
         public bool ValidateFirstName(string firstName)
         {
             try
@@ -33,5 +34,6 @@ namespace UserRegistrationTestAndRegex
                 throw new UserRegistrationException(UserRegistrationException.ExceptionType.NULL_Message, "Name should not be null.");
             }
         }
+
     }
 }

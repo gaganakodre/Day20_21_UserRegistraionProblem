@@ -16,7 +16,7 @@ namespace UserRegistrationTest
         {
             // Arrange 
             bool expected = true;
-            string name = "Shivaraj";
+            string name = "Shreegowri";
             UserRegistrationDetails user = new UserRegistrationDetails();
 
             // Act
@@ -25,5 +25,6 @@ namespace UserRegistrationTest
             // Assert
             Assert.AreEqual(expected, result);
         }
+        
     }
 }
