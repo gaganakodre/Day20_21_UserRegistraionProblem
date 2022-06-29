@@ -30,7 +30,7 @@ namespace UserRegistrationTest
         {
             // Arrange 
             bool expected = true;
-            string name = "Gowda";
+            string name = "Koder";
             UserRegistrationDetails user = new UserRegistrationDetails();
 
             // Act
