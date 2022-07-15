@@ -21,7 +21,7 @@ namespace UserRegistrationTestAndRegex
             //EMPTY_MOBILE_NO,
             INVALID_MOBILE_NO
         }
-        private readonly ExceptionType type;
+        private readonly ExceptionType type;//declaration to the same class or for the construvtor we cannot acess outside the ckasss
 
         public UserRegistrationException(ExceptionType Type, String message) : base(message)
         {

@@ -27,8 +27,8 @@ namespace UserRegistrationTestAndRegex
                 if (firstName.Equals(string.Empty))
                 {
                     throw new UserRegistrationException(UserRegistrationException.ExceptionType.EMPTY_FIRSTNAME, "Name should not be empty.");
-                }
-                else if (Regex.IsMatch(firstName, Regex_FirstName))
+                }//returns bool value,static method
+                else if (Regex.IsMatch(firstName, Regex_FirstName))//ismatch method it specifies weather the regularexpression match with the string
                 {
                     return true;
                 }
